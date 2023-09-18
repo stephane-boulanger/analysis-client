@@ -1,0 +1,19 @@
+/* Form.module.css */
+.fullWidth-form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+}
+
+.fullWidth-form-control {
+  background-color: #333333;
+  border: 1px solid #555555;
+  border-radius: 4px;
+  color: #ffffff;
+  padding: 8px;
+  font-size: 16px;
+  resize: none; /* Empêche le redimensionnement avec la souris */
+  width: 100%; /* Fait occuper toute la largeur */
+  min-height: 120px;
+  box-sizing: border-box; /* Inclut la bordure et le padding dans la largeur totale */
+}
